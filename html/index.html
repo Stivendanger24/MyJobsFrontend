@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyJobs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/Login-y-registro/Bienvenida.php">
+    <link rel="stylesheet" href="/Login-y-registro/index.php">
+    <link rel="stylesheet" href="/Login-y-registro/assets/css/estilos.css">
+    <link rel="stylesheet" href="/Login-y-registro/assets/js/script.js">
+
+     <!--MODULOS CONCATENADOS-->
+    <link rel="stylesheet" href="setting.html">
+    <link rel="stylesheet" href="notification.html">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <div class="container">
+
+            <a href="#" class="navbar-brand"><span class="text-primary">My</span>Jobs </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+                aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a href="#POSTULARME-epigrafe" class="nav-link">
+                            <i class="fa fa-search"></i> BUSCAR OFERTAS
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fa fa-file"></i> HOJA DE VIDA
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#HOJA-epigrafe" class="nav-link">
+                            <i class="fa fa-lightbulb-o"></i> TIPS HOJA DE VIDA
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#NOSOTROS-epigrafe" class="nav-link">
+                            <i class="fa fa-users"></i> NOSOTROS
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="notification.html" class="nav-link">
+                            <i class="fa fa-bell"></i> NOTIFICACIONES
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/html/setting.html" class="nav-link">
+                            <i class="fa fa-cog"></i> CONFIGURACIÓN
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div id="carouselE" class="carousel slide" data-bs-ride="carousel"><!--INICIO DE CAROUSEL-->
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/home-1.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>¡Donde crecen los mejores Ingenieros!<h5>
+                            <p> Tu futuro, tu carrera, tus oportunidades: <strong>My Jobs,</strong> donde los sueños se
+                                convierten en código.</p>
+                            <!--  <a href="#" class="btn btn-primary mt-3">MAS INFORMACIÓN</a> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/home-2.jpeg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>¡Donde crecen los mejores Ingenieros!<h5>
+                            <p> Tu futuro, tu carrera, tus oportunidades: <strong>My Jobs,</strong> donde los sueños se
+                                convierten en código.</p>
+                            <!--  <a href="#" class="btn btn-primary mt-3">MAS INFORMACIÓN</a> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/home-3.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>¡Donde crecen los mejores Ingenieros!<h5>
+                            <p> Tu futuro, tu carrera, tus oportunidades: <strong>My Jobs,</strong> donde los sueños se
+                                convierten en código.</p>
+                            <!--  <a href="#" class="btn btn-primary mt-3">MAS INFORMACIÓN</a> -->
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div><!--FIN DE CAROUSEL-->
+
+
+    <section class="nosotros section-padding">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Si sabes de sistemas y buscas trabajo ¡My Jobs es tu mejor Opción!</h2>
+                        <h5>la carrera con mejor demanda en el mercado</h5>
+                        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos consequatur vel suscipit
+                            eveniet,
+                            dolore architecto ducimus quam veritatis. <br> Quos quas necessitatibus numquam a, ipsum
+                            accusantium
+                            ut consequuntur architecto hic soluta!</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about section-padding">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="../img/about.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="abaout-text text-white">
+                        <h2 id="HOJA-epigrafe">¡Tips de mejora para tu hoja de vida!</h2>
+                        <h5>Haz que tu currículum sea visible para miles de empresas en nuestra bolsa de trabajo.
+                        </h5><br>
+                        <p><strong>Inscripción sin costo.</strong> Encuentra tu próximo empleo hoy</p>
+                        <p><strong>Nuevas oportunidades diariamente.</strong> Trabajos que coinciden con tu
+                            experiencia.</p>
+                        <p><strong>Notificaciones personalizadas.</strong> Crea tus alertas de empleo y nosotros te
+                            mantendremos informado.</p>
+                        <p><strong>Optimiza tu perfil.</strong> Destaca profesionalmente y aumenta tu visibilidad.
+                        </p>
+                        <a href="#" class="btn btn-primary"> MAS INFORMACIÓN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section> <!-- INICIO DE SERVICIOS-->
+    <section class="services section-padding">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Publica tus ofertas en el portal de empleo con mayor audiencia en Latinoamérica</h2>
+                        <P>tenemos las mejores herramientas que son necesarias para que puedas mejorar la busqueda
+                            de empleo y ser
+                            seleccionado, la inteligencia artificial de nuestra parte puede mejorar de una forma
+                            fantastica tu currículum.
+                        </P>
+                    </div>
+                </div>
+            </div>
+            <div class="row"><!--MEJORA TU HOJA DE VIDA CON INTELIGENCIA ARTIFICIAL-->
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-robot"></i>
+                            <h3 class="card-title">Hoja de Vida con IA</h3>
+                            <p class="lead">
+                                Una hoja de vida con inteligencia artificial no solo demuestra tu experiencia técnica,
+                                sino que también muestra tu capacidad de innovación y adaptación a las últimas
+                                tendencias tecnológicas.
+                            </p>
+                            <button class="btn bg-primary text-white"> MAS INFORMACIÓN</button>
+                        </div>
+                    </div>
+                </div> <!-- CREAR O MEJORAR TU PORTAFOLIO CON INTELIGENCIA ARTIFICIAL-->
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-wifi"></i>
+                            <h3 class="card-title">Portafolio con IA</h3>
+                            <p class="lead">
+                                Crear un portafolio personal con inteligencia artificial (IA) puede ser una excelente
+                                manera de destacarte en el mundo de la tecnología y demostrar tus habilidades en este
+                                campo.
+                            </p>
+                            <button class="btn bg-primary text-white"> MAS INFORMACIÓN</button>
+                        </div>
+                    </div>
+                </div> <!-- APRENDE UN POCO MAS, CURSOS DE PROGRAMACIÓN, SOPORTE, TESTING Y DEMAS...-->
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-book"></i>
+                            <h3 class="card-title">Aprende un poco mas</h3>
+                            <p class="lead">
+                                Tenemos cursos de Programación (frontend, backend), soporte (nivel 1, 2 y 3)
+                                testing,seguridad de la información, sql,
+                                gestión en bases de datos, inteligencia artificial y mucho mas...
+                            </p>
+                            <button class="btn bg-primary text-white"> MAS INFORMACIÓN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="portafolio section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2 id="POSTULARME-epigrafe">¡Estas son algunas ofertas destacadas!</h2>
+                        <P>En esta parte no solo podras encontrar algunas ofertas que te puedan interesar... <br> 
+                           si no que tambien te pueden llevar a mejores oportunidades y aprendizaje personal.</P>
+                    </div>
+                </div>
+            </div> <!--OFERTAS DE EMPLEO-->
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-ligth text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4 ">
+                                <img src="/img/project-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3> <strong> Gerente de Proyectos</strong> </h3>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
+                                voluptates
+                                eligendi, qui asperiores totam fugiat officia aliquam fuga, reiciendis quaerat ex
+                                adipisci non veniam sit numquam optio, eius dolorem culpa.
+                            </p>
+                            <button class="btn bg-primary text-white">MAS INFORMACIÓN</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-ligth text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4 ">
+                                <img src="/img/project-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3> <strong> Desarrollador Junior </strong></h3>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
+                                voluptates
+                                eligendi, qui asperiores totam fugiat officia aliquam fuga, reiciendis quaerat ex
+                                adipisci non veniam sit numquam optio, eius dolorem culpa.
+                            </p>
+                            <button class="btn bg-primary text-white">MAS INFORMACIÓN</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-ligth text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4 ">
+                                <img src="/img/project-3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3> <strong> Ingeniero en Seguridad</strong></h3>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Autem
+                                voluptates
+                                eligendi, qui asperiores totam fugiat officia aliquam fuga,<br> reiciendis quaerat ex
+                                adipisci non veniam sit numquam optio, eius dolorem culpa.
+                            </p>
+                            <button class="btn bg-primary text-white">MAS INFORMACIÓN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section> <!--ESCRIBIR NOMBRES DEL EQUIPO-->
+    <section class="team section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2 id="NOSOTROS-epigrafe"><b> Nosotros</b></h2>
+                        <p>Somos un grupo de ingenieros encargados de que nuestros colegas <br>
+                            tengan la oportunidad de mejores condiciones laborales, teniendo la 
+                            posibilidade de quedar con la vacante que se ajuste a su calidad de vida.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="/img/team-1.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">BRANDON</h3>
+                            <p class="card-text ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio voluptatem
+                                repudiandae excepturi dolor a porro
+                            </p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"></i>
+                                <i class="bi bi-facebook text-white mx-1"></i>
+                                <i class="bi bi-instagram text-white mx-1"></i>
+                                <i class="bi bi-linkedin text-white mx-1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="/img/team-2.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">JAMES</h3>
+                            <p class="card-text ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio voluptatem
+                                repudiandae excepturi dolor a porro
+                            </p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"></i>
+                                <i class="bi bi-facebook text-white mx-1"></i>
+                                <i class="bi bi-instagram text-white mx-1"></i>
+                                <i class="bi bi-linkedin text-white mx-1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="/img/team-4.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">JEFRITH</h3>
+                            <p class="card-text ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio voluptatem
+                                repudiandae excepturi dolor a porro
+                            </p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"></i>
+                                <i class="bi bi-facebook text-white mx-1"></i>
+                                <i class="bi bi-instagram text-white mx-1"></i>
+                                <i class="bi bi-linkedin text-white mx-1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section-padding"> <!--CONTACTANOS-->
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>¡Contactanos!</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum labore eius et ex recusandae
+                            obcaecati repellat reprehenderit,<br> veniam voluptas quaerat eligendi iusto id.
+                            Consequuntur
+                            sed tenetur aspernatur nobis! Assumenda, architecto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-12 p-0 pt-4 pb-4">
+                    <form action="#" class="bg-dark p-4 m-auto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Correo">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" placeholder="Mensaje" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-lg btn-block mt-3">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white">¡Tu camino hacia el éxito profesional comienza aquí! <br>@Stiven'G</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
